@@ -1,0 +1,347 @@
+{
+  "job_title": "AI DEVELOPER",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "name": "Noble Yak",
+      "email": "noble-yak@example.com",
+      "match_score": 64,
+      "final_score": 98,
+      "strengths": [
+        "Exceptional academic background (Master's in CS from Top 50, 4.0 GPA, recent 2024 grad).",
+        "Directly relevant AI skills including NLP, Machine Learning, Computer Vision, Python, and C++.",
+        "Practical experience through Research and Development Intern and Researcher roles at notable institutions."
+      ],
+      "weaknesses": [
+        "Work experience is primarily internship and research-focused, lacking extensive full-time industry AI development."
+      ],
+      "why_on_top": "Noble Yak combines recent, top-tier academic expertise in Computer Science with core AI skills and relevant research experience, making him a strong candidate for an AI Developer role, especially considering recency and academic excellence."
+    },
+    {
+      "rank": 2,
+      "name": "Incredible Yak",
+      "email": "incredible-yak@example.com",
+      "match_score": 63.5,
+      "final_score": 95,
+      "strengths": [
+        "Direct experience as a 'Machine Learning Engineer' at Asa Branca Aerospace/UFPE.",
+        "Very strong relevant AI skills including Machine Learning, Computer Vision, Python, and Azure.",
+        "Practical, hands-on experience in AI solution development."
+      ],
+      "weaknesses": [
+        "Still pursuing Bachelor's degree (completion in 2025), indicating less formal academic background completed.",
+        "Salary expectation is somewhat high for someone still completing their degree."
+      ],
+      "why_on_top": "Incredible Yak demonstrates immediate, hands-on experience as a Machine Learning Engineer with critical AI skills (ML, CV, Python), indicating practical capability and direct relevance despite still completing his degree."
+    },
+    {
+      "rank": 3,
+      "name": "Cheerful Narwhal",
+      "email": "cheerful-narwhal@example.com",
+      "match_score": 64,
+      "final_score": 92,
+      "strengths": [
+        "Professional experience as a 'Machine Learning Engineer'.",
+        "Comprehensive set of AI-relevant skills including Computer Vision, Machine Learning, Python, Pandas, Spark, and Airflow.",
+        "Strong cloud platform experience with Amazon Web Services and Google Cloud Platform."
+      ],
+      "weaknesses": [
+        "Master's degree was completed over a decade ago (2014), potentially indicating less exposure to the latest AI advancements."
+      ],
+      "why_on_top": "Cheerful Narwhal possesses direct professional experience as a Machine Learning Engineer with a comprehensive set of AI development and data engineering tools, making them a highly capable and experienced candidate."
+    },
+    {
+      "rank": 4,
+      "name": "Intelligent Wombat",
+      "email": "intelligent-wombat@example.com",
+      "match_score": 63.5,
+      "final_score": 88,
+      "strengths": [
+        "Directly relevant AI skills including NLP and Machine Learning.",
+        "Strong proficiency in Python and related frameworks (Django, Flask).",
+        "Cloud experience with Amazon Web Services and Google Cloud Platform."
+      ],
+      "weaknesses": [
+        "Most recent role is 'Senior Full Stack Developer', which might suggest less specialized focus on pure AI development compared to dedicated ML roles."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 5,
+      "name": "Energetic Buffalo",
+      "email": "energetic-buffalo@example.com",
+      "match_score": 64,
+      "final_score": 85,
+      "strengths": [
+        "Explicit Machine Learning skill and Python proficiency.",
+        "Experience as a 'Researcher' and familiarity with Google Cloud Platform.",
+        "Recent Master's degree in Computer Science (2022)."
+      ],
+      "weaknesses": [
+        "Primary work experience roles (Mobile App Developer, Web Developer) are less directly AI-focused.",
+        "Details on the 'Researcher' role's AI focus are missing."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 6,
+      "name": "Loyal",
+      "email": "loyal-penguin@example.com",
+      "match_score": 64,
+      "final_score": 75,
+      "strengths": [
+        "Strong Python skills and experience with big data technologies (Hadoop, Spark, Scala).",
+        "Senior Software Engineer experience at LinkedIn.",
+        "Master's in Electrical Engineering providing a quantitative foundation."
+      ],
+      "weaknesses": [
+        "No explicit AI-specific skills like Machine Learning, NLP, or Computer Vision listed.",
+        "Electrical Engineering background is less direct than Computer Science for AI development."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 7,
+      "name": "Mighty",
+      "email": "mighty-alligator@example.com",
+      "match_score": 64,
+      "final_score": 65,
+      "strengths": [
+        "Lists 'Machine Learning' as a skill.",
+        "Extensive software development experience, including Tech Lead and Senior Software Engineer roles.",
+        "Low salary expectation."
+      ],
+      "weaknesses": [
+        "Core work experience is in traditional Java/web development, not focused on AI/ML.",
+        "Academic background includes an older Bachelor's in CS and a Master's in Finance, not recent AI-focused education."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 8,
+      "name": "Zealous Fox",
+      "email": "zealous-fox@example.com",
+      "match_score": 63.5,
+      "final_score": 60,
+      "strengths": [
+        "Strong Python and related frameworks (Django, Flask).",
+        "Experience with cloud (AWS) and containerization/orchestration (Kubernetes, Docker, Helm), essential for deploying AI.",
+        "Role as 'Cloud Solutions Architect' suggests infrastructure expertise."
+      ],
+      "weaknesses": [
+        "No explicit AI-specific skills (Machine Learning, NLP, Computer Vision) listed.",
+        "Work experience is more focused on backend and DevOps rather than AI development."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 9,
+      "name": "Hopeful Platypus",
+      "email": "hopeful-platypus@example.com",
+      "match_score": 63.5,
+      "final_score": 58,
+      "strengths": [
+        "Recent Computer Science graduate (2024) with a good GPA.",
+        "Proficiency in Python and C++, foundational languages for AI.",
+        "Experience with Docker and AWS, useful for deployment."
+      ],
+      "weaknesses": [
+        "Primary work experience is in DevOps and Frontend Engineering, lacking direct AI development roles.",
+        "No explicit AI-specific skills (ML, NLP, CV) listed."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 10,
+      "name": "Curious Wombat",
+      "email": "curious-wombat@example.com",
+      "match_score": 64,
+      "final_score": 55,
+      "strengths": [
+        "Recent Master's degree in Computer Science (2024) with a strong GPA.",
+        "Proficiency in Python, a key language for AI development."
+      ],
+      "weaknesses": [
+        "No explicit AI-specific skills (Machine Learning, NLP, Computer Vision) listed.",
+        "Work experience is primarily in backend and network engineering, not AI-focused."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 11,
+      "name": "Eager Lemur",
+      "email": "eager-lemur@example.com",
+      "match_score": 63.5,
+      "final_score": 52,
+      "strengths": [
+        "Proficiency in Python.",
+        "Senior Software Engineer experience indicates solid development skills."
+      ],
+      "weaknesses": [
+        "No explicit AI-specific skills (ML, NLP, CV) listed.",
+        "Work experience is mostly general web/software development."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 12,
+      "name": "Courageous Lemur",
+      "email": "courageous-lemur@example.com",
+      "match_score": 63.5,
+      "final_score": 50,
+      "strengths": [
+        "Proficiency in Python and MATLAB, useful for scientific computing and data analysis.",
+        "Experience as a Software Developer Intern and Frontend Engineer."
+      ],
+      "weaknesses": [
+        "Bachelor's degree is in Mechanical Engineering, less direct for AI development.",
+        "No explicit AI-specific skills (ML, NLP, CV) listed.",
+        "Most recent roles are Frontend Engineer and Customer Support."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 13,
+      "name": "Clever Yak",
+      "email": "clever-yak@example.com",
+      "match_score": 64,
+      "final_score": 45,
+      "strengths": [
+        "Strong academic background (Master's in CS from Top 50, recent 2022 grad).",
+        "Proficiency in C++."
+      ],
+      "weaknesses": [
+        "Skills are heavily focused on Blockchain (Blockchain, R), with no explicit AI/ML skills.",
+        "Work experience is specialized in Blockchain and general software development, not AI."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 14,
+      "name": "Calm Bear",
+      "email": "calm-bear@example.com",
+      "match_score": 64,
+      "final_score": 40,
+      "strengths": [
+        "Has 'Data Science' listed as a subject from Stanford University (Top Schools).",
+        "CTO experience suggests leadership and technical oversight."
+      ],
+      "weaknesses": [
+        "Bachelor's degree is in Communications, not Computer Science or a related technical field.",
+        "Skill list is very sparse (Agile, Blockchain, REST APIs) and lacks explicit AI/ML skills.",
+        "The 'Data Science' entry is a subject, not a full degree, indicating a potential short course or specialization."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 15,
+      "name": "Vibrant Jaguar",
+      "email": "vibrant-jaguar@example.com",
+      "match_score": 63.5,
+      "final_score": 35,
+      "strengths": [
+        "Extensive full stack and software engineering experience.",
+        "Familiarity with Amazon Web Services and Docker."
+      ],
+      "weaknesses": [
+        "Entirely lacks AI-relevant skills (ML, NLP, CV).",
+        "Primary experience is in general web/full stack development, not AI-focused."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 16,
+      "name": "Brave Flamingo",
+      "email": "brave-flamingo@example.com",
+      "match_score": 64,
+      "final_score": 30,
+      "strengths": [
+        "Strong experience in mobile and web development, including Lead Mobile App Developer roles.",
+        "Master's degree in Computer Science (2020)."
+      ],
+      "weaknesses": [
+        "No AI-relevant skills (ML, NLP, CV) listed.",
+        "High salary expectation for a role that is not aligned with AI development."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 17,
+      "name": "Spirited Lemur",
+      "email": null,
+      "match_score": 63.5,
+      "final_score": 25,
+      "strengths": [
+        "Recent Bachelor's degree in Computer Science (2024) with a strong GPA.",
+        "Good foundational development skills (Java, JavaScript, React, Node JS)."
+      ],
+      "weaknesses": [
+        "Limited professional experience (internship, tutor).",
+        "No AI-specific skills or relevant roles.",
+        "High salary expectation for a recent graduate with limited specialized experience.",
+        "Missing phone number."
+      ],
+      "why_on_top": null
+    },
+    {
+      "rank": 18,
+      "name": "Delightful",
+      "email": "delightful-raccoon@example.com",
+      "match_score": 63.5,
+      "final_score": 20,
+      "strengths": [
+        "Recent IT graduate (2024).",
+        "Proficiency in Python."
+      ],
+      "weaknesses": [
+        "Very limited professional experience (internship, junior full stack developer).",
+        "No explicit AI-specific skills (ML, NLP, CV) beyond general Python proficiency."
+      ],
+      "why_on_bottom": "Delightful is a very junior candidate whose limited experience and skills are not specialized for an AI Developer role, despite recent graduation and Python knowledge. Their profile shows no direct AI-related work or specific AI skills."
+    },
+    {
+      "rank": 19,
+      "name": "Reliable",
+      "email": "reliable-zorse@example.com",
+      "match_score": 63.5,
+      "final_score": 15,
+      "strengths": [
+        "Recent Bachelor's degree in Computer Science (2023).",
+        "Experience as a Full Stack Developer."
+      ],
+      "weaknesses": [
+        "No AI-specific skills (ML, NLP, CV) listed.",
+        "General full stack development experience is not aligned with an AI Developer role."
+      ],
+      "why_on_bottom": "Reliable is a recent CS graduate with general full-stack development experience but entirely lacking any explicit AI-specific skills or relevant experience for an AI Developer role, making them a poor fit."
+    },
+    {
+      "rank": 20,
+      "name": "Unique Hedgehog",
+      "email": "unique-hedgehog@example.com",
+      "match_score": 64,
+      "final_score": 10,
+      "strengths": [
+        "Experience as an Engineering Manager.",
+        "Proficiency in various web technologies."
+      ],
+      "weaknesses": [
+        "Academic background (Urban Planning, Architecture) is entirely unrelated to Computer Science or AI.",
+        "Coding experience appears to be from a bootcamp, indicating less foundational expertise.",
+        "No AI-specific skills (ML, NLP, CV) listed.",
+        "High salary expectation for an irrelevant background."
+      ],
+      "why_on_bottom": "Unique Hedgehog's academic and professional background is fundamentally misaligned with the requirements of an AI Developer, lacking both core computer science and specialized AI expertise, placing them as the least suitable candidate."
+    }
+  ],
+  "chosen_for_hire": [
+    "noble-yak@example.com",
+    "incredible-yak@example.com",
+    "cheerful-narwhal@example.com",
+    "intelligent-wombat@example.com",
+    "energetic-buffalo@example.com"
+  ],
+  "selection_reasoning": "These five candidates were selected for their direct relevance and strong alignment with the 'AI DEVELOPER' job title. They demonstrate a robust combination of explicit AI skills (Machine Learning, NLP, Computer Vision), proficiency in key languages like Python, and practical experience in AI engineering or research roles. Noble Yak stands out for his exceptional, recent academic background and core AI skills. Incredible Yak and Cheerful Narwhal offer direct Machine Learning Engineer experience, while Intelligent Wombat combines strong AI skills with cloud and full-stack development capabilities. Energetic Buffalo brings Machine Learning and Python skills with a research background, making them a well-rounded and strong fit for the role.",
+  "gemini_available": true,
+  "fallback_used": false
+}

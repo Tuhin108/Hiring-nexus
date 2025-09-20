@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIRING NEXUS — NEURAL INTERFACE</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Added cyberpunk background grid and glitch effects -->
+    <div class="cyber-grid"></div>
+    <div class="glitch-overlay"></div>
+    
+    <div class="container">
+        <header>
+            <h1 class="cyber-title">
+                <span class="glitch" data-text="HIRING NEXUS">HIRING NEXUS</span>
+                <span class="subtitle">NEURAL INTERFACE v2.077</span>
+            </h1>
+            <div id="status" class="status"></div>
+        </header>
+
+        <main class="main-content">
+            <!-- Left Column: Input and Controls -->
+            <div class="left-column cyber-panel">
+                <div class="panel-header">
+                    <span class="panel-title">QUERY PARAMETERS</span>
+                    <div class="status-indicator"></div>
+                </div>
+                
+                <div class="input-section">
+                    <h2>TARGET POSITION</h2>
+                    <div class="input-wrapper">
+                        <input type="text" id="position-input" placeholder="e.g., Neural Network Engineer" />
+                        <div class="input-glow"></div>
+                    </div>
+                    <button id="filter-rank-btn" class="cyber-btn primary">
+                        <span>EXECUTE SCAN</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+
+                <div class="add-candidate-section">
+                    <h3>INJECT NEW CANDIDATE</h3>
+                    <form id="add-candidate-form">
+                        <div class="input-wrapper">
+                            <input type="text" id="candidate-name" placeholder="Identity Code" required />
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="email" id="candidate-email" placeholder="Neural Link (optional)" />
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="text" id="candidate-skills" placeholder="Skill Matrix (comma-separated)" />
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="number" id="candidate-salary" placeholder="Credit Requirement" />
+                            <div class="input-glow"></div>
+                        </div>
+                        <button type="submit" class="cyber-btn secondary">
+                            <span>UPLOAD TO MATRIX</span>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="export-section">
+                    <button id="export-btn" class="cyber-btn export" disabled>
+                        <span>DOWNLOAD DATA STREAM</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Middle Column: Results -->
+            <div class="middle-column cyber-panel">
+                <div class="panel-header">
+                    <span class="panel-title">ANALYSIS RESULTS</span>
+                    <div class="status-indicator active"></div>
+                </div>
+
+                <div id="loading" class="loading hidden">
+                    <div class="cyber-spinner"></div>
+                    <p class="loading-text">SCANNING NEURAL PATTERNS...</p>
+                </div>
+
+                <div id="results-section" class="results-section hidden">
+                    <h2>RANKED ENTITIES</h2>
+                    <div id="results-list"></div>
+                </div>
+
+                <div id="error-section" class="error-section hidden">
+                    <h3 class="error-title">SYSTEM ERROR</h3>
+                    <p id="error-message" class="error-text"></p>
+                </div>
+            </div>
+
+            <!-- Right Column: Scrolling Ticker -->
+            <div class="right-column cyber-panel">
+                <div class="panel-header">
+                    <span class="panel-title">LIVE FEED</span>
+                    <div class="status-indicator pulse"></div>
+                </div>
+                <div class="candidate-ticker">
+                    <div id="ticker-content" class="ticker-content"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
