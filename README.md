@@ -3,60 +3,68 @@ _A cyberpunk-themed hiring platform that utilizes AI to streamline the recruitme
 ===========================
 📖 Description
 ---------------
-Hiring Nexus is an innovative web application designed to revolutionize the way companies hire talent. By leveraging the power of artificial intelligence, machine learning, and natural language processing, our platform provides a seamless and efficient experience for both employers and job seekers. The application features a user-friendly interface, complete with neon colors, glitch effects, and futuristic styling, immersing users in a cyberpunk world.
-
-At the heart of Hiring Nexus lies a sophisticated algorithm that analyzes candidate resumes, cover letters, and other relevant data to provide personalized recommendations to employers. The platform also includes a range of tools and features to facilitate communication, scheduling, and feedback, ensuring a smooth and successful hiring process. With its cutting-edge technology and intuitive design, Hiring Nexus is poised to become the go-to platform for companies seeking top talent in the industry.
-
-The application is built using a combination of frontend and backend technologies, including React, TypeScript, Flask, and Python. The codebase is structured to ensure maintainability, scalability, and performance, with a focus on delivering a fast and seamless user experience. Whether you're a hiring manager, recruiter, or job seeker, Hiring Nexus is the perfect solution for all your hiring needs.
+Hiring Nexus is a powerful web application designed to optimize the recruitment process. It provides a structured and data-driven approach for recruiters and hiring managers to efficiently filter, score, and rank job applicants. By leveraging the Gemini API, it offers deeper, AI-powered insights into each candidate's profile, moving beyond traditional keyword matching.
 
 ✨ Features
 -----------
-The following features make Hiring Nexus a comprehensive and powerful hiring platform:
-1. **AI-powered candidate matching**: Our algorithm analyzes candidate data to provide personalized recommendations to employers.
-2. **User-friendly interface**: The application features a cyberpunk-themed design, complete with neon colors, glitch effects, and futuristic styling.
-3. **Resume and cover letter analysis**: The platform analyzes candidate resumes and cover letters to identify key skills and qualifications.
-4. **Real-time feedback and communication**: Employers and candidates can communicate and provide feedback in real-time, ensuring a smooth and successful hiring process.
-5. **Scheduling and interviewing tools**: The platform includes tools for scheduling interviews, managing candidate pipelines, and tracking applicant progress.
-6. **Personalized job recommendations**: Candidates receive personalized job recommendations based on their skills, experience, and preferences.
-7. **Company profiling and branding**: Employers can create company profiles, showcasing their brand, culture, and values to attract top talent.
-8. **Integration with social media and job boards**: The platform integrates with popular social media platforms and job boards, expanding the reach and visibility of job postings.
+1. Intelligent Candidate Filtering: Instantly narrow down your applicant pool for specific job positions by intelligently matching keywords from their experience and skills.
+2. Customizable Scoring System: A finely-tuned, weighted algorithm scores each candidate to ensure the most relevant skills and experience are prioritized:
+3. Experience: Weighted at 60% to highlight the most relevant professional history.
+4. Skills: Weighted at 30% to confirm technical and professional qualifications.
+5. Education: Weighted at 10% with a bonus for advanced degrees and top institutions.
+6. AI-Powered Insights: Go beyond basic scores. The application uses the Gemini API to generate detailed summaries of a candidate's strengths and weaknesses, giving you a holistic view of their potential.
+7. Intuitive User Interface: A clean and easy-to-use web interface makes managing and analyzing candidate data seamless, allowing you to focus on making the best hiring decisions.
 
 🧰 Tech Stack Table
 -------------------
-| Category | Technology |
-| --- | --- |
-| Frontend | React, TypeScript, CSS (Tailwind, Tw-Animate) |
-| Backend | Flask, Python |
-| Tools | Webpack, Babel, ESLint |
-| Database | JSON, SQLite |
-| Deployment | Heroku, AWS |
+
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Backend** | Python | The core language for the backend logic and data processing. |
+| | Flask | A lightweight Python web framework for handling API endpoints and serving the web interface. |
+| | Requests | A Python library used for making API calls to the external Gemini service. |
+| **Frontend** | HTML | Provides the structure and content of the user interface. |
+| | CSS | Styles the application, giving it a modern cyberpunk theme with visual effects. |
+| | JavaScript | Manages client-side interactions, form submissions, and dynamic content updates. |
+| **Integrations** | Gemini API | An external service for generating AI-powered insights and rankings for candidates. |
+| **Data Format** | JSON | The standard format for storing candidate data and for communication between the frontend and backend. |
 
 📁 Project Structure
 ---------------------
 The project is structured into the following folders and files:
-* `app`: Contains the Flask backend application, including routes, models, and templates.
-* `components`: Includes React components, such as the candidate profile, job posting, and company profile.
-* `css`: Contains CSS files, including global styles, component-specific styles, and animation styles.
-* `images`: Stores images used throughout the application, including logos, icons, and backgrounds.
-* `js`: Includes JavaScript files, such as the HiringHelper class and other utility functions.
-* `models`: Defines data models for candidates, jobs, and companies.
-* `templates`: Contains HTML templates for the application, including the index page, job postings, and candidate profiles.
+* `app`: The core Flask application logic.
+* `applications.json`: A JSON file for loading your candidate data.
+* `templates/index.html`: The main HTML file for the web interface.
+* `static/js/app.js`: Contains JavaScript for the front-end functionality.
+* `static/css/style.css`: The CSS file for styling the application.
 
-⚙️ How to Run
----------------
-To run the application, follow these steps:
-1. **Setup**: Clone the repository and navigate to the project directory.
-2. **Environment**: Create a virtual environment using `python -m venv env` and activate it using `source env/bin/activate`.
-3. **Dependencies**: Install dependencies using `pip install -r requirements.txt`.
-4. **Build**: Run `npm install` to install frontend dependencies and `npm run build` to build the React application.
-5. **Deploy**: Deploy the application to Heroku or AWS using the respective deployment scripts.
-
-🧪 Testing Instructions
-----------------------
-To test the application, follow these steps:
-1. **Unit tests**: Run `pytest` to execute unit tests for the backend application.
-2. **Integration tests**: Run `pytest --integration` to execute integration tests for the frontend and backend applications.
-3. **End-to-end tests**: Run `cypress run` to execute end-to-end tests for the application.
+### ⚙️ How to Run
+To get the Hiring Helper application up and running, follow these steps:
+#### 1\. Prerequisites
+Make sure you have the following installed on your system:
+  * **Python 3.8 or higher**
+  * **A Gemini API key**
+#### 2\. Installation
+First, clone the repository and navigate into the project directory:
+```bash
+git clone https://github.com/your-username/hiring-helper.git
+cd hiring-helper
+```
+Next, install the necessary Python dependencies using pip:
+```bash
+pip install -r requirements.txt
+```
+#### 3\. Configuration
+Set your Gemini API key as an environment variable before you run the application. This key is crucial for the AI-powered ranking feature.
+```bash
+export GEMINI_API_KEY="YOUR_API_KEY"
+```
+#### 4\. Running the Application
+Start the Flask server by executing the main Python script:
+```bash
+python app.py
+```
+Once the server is running, open your web browser and go to `http://127.0.0.1:5000` to access the application.
 
 📸 Screenshots
 ---------------
